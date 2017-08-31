@@ -152,7 +152,7 @@ students = [张三，李四，王五，刘七]
 
 看一个真实的场景，就餐排队。所有打饭的人都需要排队，排在最前面的人最先打饭，后面来的人都排在后面。
 
-![](http://otn252ndm.bkt.clouddn.com/structure/queue_clip.gif)
+![](http://otn252ndm.bkt.clouddn.com/17-8-31/93137429.jpg)
 
 根据这个真实的例子，我们可以抽象出下面几个规则：
 1. 排队的人是一个有序的集合（适合用数组存储）
@@ -174,7 +174,7 @@ students = [张三，李四，王五，刘七]
 [数据结构-栈和队列](http://blog.csdn.net/hguisu/article/details/7674195)
 
 
-![](http://otn252ndm.bkt.clouddn.com/structure/stack_clip.gif)
+![](http://otn252ndm.bkt.clouddn.com/17-8-31/20773118.jpg)
 
 
 # 查找
