@@ -1,13 +1,14 @@
 #coding=utf-8
+#!/usr/bin/python3
 '''
 展示在Python中，如何操作数组
 '''
 
 #################################################
-### 一维数组
+### 一维数组 http://www.runoob.com/python3/python3-list.html
 squares = [1, 4, 9, 16, 25, 36]
-print u"打印原数组："
-print squares
+print("打印原数组：")
+print(squares)
 '''
 Python的编号可以为正负
 
@@ -19,21 +20,32 @@ Python的编号可以为正负
 
 '''
 ## 找到特定下标的元素
-print u"打印下标为4的元素："
-print squares[4]    # 从第一个开始数，指向25
-print u"打印下标为-2的元素："
-print squares[-2]   # 从最后一个开始数，指向25
+print("打印下标为4的元素：")
+print(squares[4])    # 从第一个开始数，指向25
+print("打印下标为-2的元素：")
+print(squares[-2])   # 从最后一个开始数，指向25
 
 ## 找到特定下标范围的元素
-print u"打印下标为2（包含）到4（不包含）之间的所有元素："
-print squares[2:4]
-print u"打印下标从4开始（包含）到数组最后的所有元素："
-print squares[4:]
-print u"打印第一个元素到第-2（不含）的元素："
-print squares[:-2]
+print("打印下标为2（包含）到4（不包含）之间的所有元素：")
+print(squares[2:4])
+print("打印下标从4开始（包含）到数组最后的所有元素：")
+print(squares[4:])
+print("打印第一个元素到第-2（不含）的元素：")
+print(squares[:-2])
 
 ## 设置数组元素的值
-print u"下标为2的元素乘以10："
+print("下标为2的元素乘以10：")
 squares[2] *= 10
-print squares
+print(squares)
 
+## 删除数组里面的元素
+print("删除下标为4的元素")
+del squares[4]
+print(squares)
+
+#################################################
+### 元组 Python 的元组与列表类似，不同之处在于元组的元素不能修改。
+# 元组使用小括号，列表使用方括号。
+tup1 = ('Google', 'Runoob', 1997, 2000);
+tup2 = (1, 2, 3, 4, 5 );
+tup3 = "a", "b", "c", "d";
